@@ -73,6 +73,8 @@ public class MainActivity extends AppCompatActivity  {
                 String url = "https://androidsqldb.000webhostapp.com/registro.php?nombreapellido="+nombreapellido+"&alias="+alias+"&telefono="+telefono;
                 insertaData(url);
 
+                //asd
+
             }
         });
     }
