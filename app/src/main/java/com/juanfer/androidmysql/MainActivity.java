@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity  {
                 alias = etAlias.getText().toString().trim();
                 telefono = etTelefono.getText().toString().trim();
 
-                String url = "https://androidsqldb.000webhostapp.com/registro.php??nombreapellido="+nombreapellido+"&alias="+alias+"&telefono="+telefono;
+                String url = "https://androidsqldb.000webhostapp.com/registro.php?nombreapellido="+nombreapellido+"&alias="+alias+"&telefono="+telefono;
                 insertaData(url);
 
             }
